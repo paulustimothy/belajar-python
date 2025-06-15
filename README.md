@@ -70,28 +70,26 @@ An AI-powered calculator that combines basic arithmetic operations with natural 
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/paulustimothy/belajar-python.git
 cd belajar-python
 ```
 
-2. Set up virtual environments for each project:
+2. Install dependencies for all project:
 
 ```bash
-# For each project directory (image-classifier, resume-critique, calculator)
+# create virtual environment
 python -m venv .venv
+
+# Activate the virtual environment
 source .venv/bin/activate  # On Linux/Mac
 # or
-.venv\Scripts\activate  # On Windows
-```
+.venv\Scripts\activate     # On Windows
 
-3. Install dependencies for each project:
-
-```bash
-# Navigate to each project directory and run:
+# install all dependencies
 pip install -r requirements.txt
 ```
 
-4. Set up environment variables:
+3. Set up environment variables:
    Create a `.env` file in the respective project directories with:
 
 ```bash
@@ -104,21 +102,21 @@ GOOGLE_API_KEY=your_api_key_here
 
 ```bash
 cd image-classifier
-streamlit run main.py
+uv run streamlit run main.py
 ```
 
 #### 📃 Resume Critique
 
 ```bash
 cd resume-critique
-streamlit run main.py
+uv run streamlit run main.py
 ```
 
 #### 🧮 Calculator
 
 ```bash
 cd calculator
-python main.py
+uv run main.py
 ```
 
 Special thanks to Tech With Tim

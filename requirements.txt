@@ -1,0 +1,23 @@
+# Python version requirement
+python>=3.12
+
+# Common dependencies
+python-dotenv>=1.1.0
+
+# Image Classifier dependencies
+opencv-python>=4.11.0.86
+streamlit>=1.45.1
+tensorflow>=2.19.0
+Pillow>=10.0.0  # Required for image processing
+numpy>=1.24.0   # Required for tensorflow
+
+# Resume Critique dependencies
+google-generativeai>=0.8.5
+PyPDF2>=3.0.1
+streamlit>=1.45.1
+
+# Calculator dependencies
+google-generativeai>=0.8.5
+langchain>=0.3.25
+langchain-google-genai>=2.0.10
+langgraph>=0.4.8
